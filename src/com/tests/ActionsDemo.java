@@ -81,13 +81,13 @@ public class ActionsDemo {
 	@Test
 	public void pageDown2() throws InterruptedException {
 		Actions actions = new Actions(driver);
-		driver.navigate().to("http://jscroll.com/");
+		driver.navigate().to("https://jscroll.com/#/installation");
 		// find an element
 		// focus on that element
 		// click page down
 
 		WebElement element = driver
-				.findElement(By.xpath("//h2[.='About jScroll']"));
+				.findElement(By.xpath("//*[@id=\"cdnjs\"]/a/span"));
 		
 		actions.moveToElement(element).click().sendKeys(Keys.PAGE_DOWN).perform();
 		Thread.sleep(1000);

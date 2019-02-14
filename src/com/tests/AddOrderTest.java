@@ -45,7 +45,7 @@ public class AddOrderTest {
 		driver.findElement(By.id("ctl00_MainContent_fmwOrder_txtQuantity")).clear();
 		driver.findElement(By.id("ctl00_MainContent_fmwOrder_txtQuantity")).sendKeys("1");
 		driver.findElement(By.id("ctl00_MainContent_fmwOrder_txtName")).sendKeys("Michael Schumacher");
-		driver.findElement(By.id("ctl00_MainContent_fmwOrder_TextBox2")).sendKeys("470 Schrock Rd");
+		driver.findElement(By.id("ctl00_MainContent_fmwOrder_TextBox2")).sendKeys("470 Rock Rd");
 		driver.findElement(By.id("ctl00_MainContent_fmwOrder_TextBox3")).sendKeys("Columbus");
 		driver.findElement(By.id("ctl00_MainContent_fmwOrder_TextBox4")).sendKeys("OHIO");
 		driver.findElement(By.id("ctl00_MainContent_fmwOrder_TextBox5")).sendKeys("43229");
@@ -76,7 +76,7 @@ public class AddOrderTest {
 
 	@AfterMethod
 	public void tearDown() {
-		driver.quit();
+		//driver.quit();
 	}
 
 }

@@ -14,12 +14,12 @@ public class Locators {
 //		driver.get("https://www.facebook.com/");
 //		
 		// Find element using id 
-//		driver.findElement(By.id("email")).sendKeys("halilkirazz@gmail.com");
-//		driver.findElement(By.id("pass")).sendKeys("ASD123asd...");
+//		driver.findElement(By.id("email")).sendKeys("abc@gmail.com");
+//		driver.findElement(By.id("pass")).sendKeys("12345");
 		
 		//Find element using name
-//		driver.findElement(By.name("email")).sendKeys("halilkirazz@gmail.com");
-//		driver.findElement(By.name("pass")).sendKeys("ASD123asd...");
+//		driver.findElement(By.name("email")).sendKeys("abc@gmail.com");
+//		driver.findElement(By.name("pass")).sendKeys("12345");
 		
 		//LINKS
 		//linkText = uses the exact text of the link

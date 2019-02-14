@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tests.JSExecutorDemo">
+      <class name="com.tests.BlackList">
         <methods>
-          <include name="scroll"/>
+          <include name="searchTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.tests.JSExecutorDemo -->
+      </class> <!-- com.tests.BlackList -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
